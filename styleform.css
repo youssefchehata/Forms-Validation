@@ -1,0 +1,43 @@
+body {
+	background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	 animation: BackgroundGradient 5s ease infinite;
+	 padding-left: 33%;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.login{
+	display: flex;
+	flex-direction: column;
+    font-family: cursive;
+	width: 50%;
+}
+h3 {
+	padding-left: 15%;
+	font-weight: bold;
+}
+h2{
+	    padding-left: 14%;
+	    font-weight: bold;
+}
+.padd{
+	padding: 2%;
+	font-weight: bold;
+	
+}
+
+#paddone {
+	    padding: 3%;
+    font-weight: bold;
+    margin-top: 7%;
+    font-family: cursive;
+}
+#paddtow{
+	 padding: 3%;
+    font-weight: bold;
+    margin-top: 7%;
+    font-family: cursive;
+}

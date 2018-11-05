@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="styleform.css">
+	<script type="text/javascript" src="formjs.js"></script>
+
+	<title>Forms Validation</title>
+
+
+</head>
+<body>
+	<header>
+		<h3>Be great at what you do</h3>
+		<h2>Get started - it's free.</h2>
+		 
+
+		
+	</header>
+
+	<main>
+
+		<form class="login" method="post" name="Form" onsubmit="return validateForm()" required>
+		First name:	<input type="text" name="First name" placeholder="Write Here.." class="padd" id="firstname">
+		Last name:	<input type="text" name="Last name" placeholder="Write Here.." class="padd" id="lastname">
+		
+		Email:	<input type="Email" name="Email"  onblur="verifMail(this)" placeholder="Write Here.." class="padd" id="email">
+		
+		Password (8 or less characters):	<input type="Password" name="Password" onblur="verifpassword(this)"  placeholder="Write Here.." class="padd" id="password">
+		
+		comment:  <textarea class="padd" placeholder="Write Here.." id="comment"> </textarea>
+		
+		<input type="submit" name="send" id="paddone" >
+		
+		<input type="reset" name="reset" id="paddtow"  >
+
+		</form>
+       
+	</main>
+
+
+	<footer>
+		
+<script type="text/javascript" src="formjs.js"></script>
+
+	</footer>
+
+</body>
+</html>
